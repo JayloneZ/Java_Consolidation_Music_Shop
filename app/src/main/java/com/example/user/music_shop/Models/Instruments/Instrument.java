@@ -1,13 +1,13 @@
 package com.example.user.music_shop.Models.Instruments;
 
 import com.example.user.music_shop.Behaviors.Playable;
-import com.example.user.music_shop.Shop;
+import com.example.user.music_shop.ShopObjects;
 
 /**
  * Created by user on 03/11/2017.
  */
 
-public abstract class Instrument extends Shop implements Playable {
+public abstract class Instrument extends ShopObjects implements Playable {
     private String material;
     private String colour;
     private String type;

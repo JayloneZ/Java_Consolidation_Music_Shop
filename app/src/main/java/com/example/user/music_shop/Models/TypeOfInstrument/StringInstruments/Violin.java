@@ -11,4 +11,8 @@ public class Violin extends StringInstrument {
     public Violin(String material, String colour, int numOfStrings) {
         super("Wood", colour, numOfStrings);
     }
+
+    public String play() {
+        return "I'm a Violin!";
+    }
 }

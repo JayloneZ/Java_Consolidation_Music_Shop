@@ -12,4 +12,8 @@ public class Saxophone extends BrassInstrument {
     public Saxophone(int numOfValves) {
         super(numOfValves);
     }
+
+    public String play() {
+        return "I'm a Saxophone!";
+    }
 }

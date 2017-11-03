@@ -12,4 +12,8 @@ public class Guitar extends StringInstrument {
     public Guitar(int numOfStrings) {
         super("Wood", "Brown", numOfStrings);
     }
+
+    public String play() {
+        return "I'm a Guitar!";
+    }
 }

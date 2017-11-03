@@ -12,4 +12,8 @@ public class Trumpet extends BrassInstrument {
     public Trumpet() {
         super(3);
     }
+
+    public String play() {
+        return "I'm a Trumpet!";
+    }
 }

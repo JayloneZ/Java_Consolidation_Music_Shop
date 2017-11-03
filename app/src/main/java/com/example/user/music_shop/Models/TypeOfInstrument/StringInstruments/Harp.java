@@ -11,4 +11,8 @@ public class Harp extends StringInstrument {
     public Harp(String colour, int numOfStrings) {
         super("Wood", colour, numOfStrings);
     }
+
+    public String play() {
+        return "I'm a Harp!";
+    }
 }

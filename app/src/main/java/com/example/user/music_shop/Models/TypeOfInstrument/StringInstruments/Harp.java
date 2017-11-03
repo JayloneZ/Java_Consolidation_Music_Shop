@@ -8,7 +8,7 @@ import com.example.user.music_shop.Models.TypeOfInstrument.StringInstrument;
 
 public class Harp extends StringInstrument {
 
-    public Harp(String material, String colour, int numOfStrings) {
-        super(material, colour, numOfStrings);
+    public Harp(String colour, int numOfStrings) {
+        super("Wood", colour, numOfStrings);
     }
 }

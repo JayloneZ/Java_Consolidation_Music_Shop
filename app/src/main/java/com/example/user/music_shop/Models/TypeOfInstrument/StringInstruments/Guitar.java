@@ -9,7 +9,7 @@ import com.example.user.music_shop.Models.TypeOfInstrument.StringInstrument;
 public class Guitar extends StringInstrument {
 
 
-    public Guitar(String material, String colour, int numOfStrings) {
-        super(material, colour, numOfStrings);
+    public Guitar(int numOfStrings) {
+        super("Wood", "Brown", numOfStrings);
     }
 }

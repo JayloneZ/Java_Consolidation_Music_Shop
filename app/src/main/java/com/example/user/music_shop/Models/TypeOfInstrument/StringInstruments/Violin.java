@@ -9,6 +9,6 @@ import com.example.user.music_shop.Models.TypeOfInstrument.StringInstrument;
 public class Violin extends StringInstrument {
 
     public Violin(String material, String colour, int numOfStrings) {
-        super(material, colour, numOfStrings);
+        super("Wood", colour, numOfStrings);
     }
 }

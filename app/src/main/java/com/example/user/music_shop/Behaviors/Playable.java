@@ -1,4 +1,4 @@
-package com.example.user.music_shop;
+package com.example.user.music_shop.Behaviors;
 
 /**
  * Created by user on 03/11/2017.
@@ -7,5 +7,5 @@ package com.example.user.music_shop;
 public interface Playable {
 
     public String play();
-    
+
 }

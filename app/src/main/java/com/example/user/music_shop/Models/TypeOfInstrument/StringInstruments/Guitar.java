@@ -9,11 +9,15 @@ import com.example.user.music_shop.Models.TypeOfInstrument.StringInstrument;
 public class Guitar extends StringInstrument {
 
 
-    public Guitar(int numOfStrings) {
-        super("Wood", "Brown", numOfStrings);
+    public Guitar(int boughtFor, int sellingFor, int numOfStrings) {
+        super("Guitar", boughtFor, sellingFor,"Wood", "Brown", numOfStrings);
     }
 
     public String play() {
         return "I'm a Guitar!";
+    }
+
+    public int calculateMarkup() {
+        return 0;
     }
 }

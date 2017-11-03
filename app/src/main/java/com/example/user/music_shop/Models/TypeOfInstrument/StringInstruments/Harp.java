@@ -8,11 +8,15 @@ import com.example.user.music_shop.Models.TypeOfInstrument.StringInstrument;
 
 public class Harp extends StringInstrument {
 
-    public Harp(String colour, int numOfStrings) {
-        super("Wood", colour, numOfStrings);
+    public Harp(int boughtFor, int sellingFor, String colour, int numOfStrings) {
+        super("Harp", boughtFor, sellingFor, "Wood", colour, numOfStrings);
     }
 
     public String play() {
         return "I'm a Harp!";
+    }
+
+    public int calculateMarkup() {
+        return 0;
     }
 }

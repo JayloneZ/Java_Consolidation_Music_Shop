@@ -9,11 +9,15 @@ import com.example.user.music_shop.Models.TypeOfInstrument.BrassInstrument;
 public class Trumpet extends BrassInstrument {
 
 
-    public Trumpet() {
-        super(3);
+    public Trumpet(int boughtFor, int sellingFor) {
+        super("Trumpet", boughtFor, sellingFor,3);
     }
 
     public String play() {
         return "I'm a Trumpet!";
+    }
+
+    public int calculateMarkup() {
+        return 0;
     }
 }

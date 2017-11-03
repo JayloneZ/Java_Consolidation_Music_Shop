@@ -11,8 +11,8 @@ public abstract class BrassInstrument extends Instrument {
 
     protected int numOfValves;
 
-    public BrassInstrument(int numOfValves) {
-        super("Brass", "Gold", "Brass");
+    public BrassInstrument(String description, int boughtFor, int sellingFor, int numOfValves) {
+        super(description, boughtFor, sellingFor, "Brass", "Gold", "Brass");
 
         this.numOfValves = numOfValves;
     }

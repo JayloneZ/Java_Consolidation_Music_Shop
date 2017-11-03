@@ -1,6 +1,6 @@
-package com.example.user.music_shop.Models.TypeOfInstrument.StringInstruments;
+package com.example.user.music_shop.Models.Instruments.TypeOfInstrument.StringInstruments;
 
-import com.example.user.music_shop.Models.TypeOfInstrument.StringInstrument;
+import com.example.user.music_shop.Models.Instruments.TypeOfInstrument.StringInstrument;
 
 /**
  * Created by user on 03/11/2017.

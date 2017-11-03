@@ -1,6 +1,6 @@
 package com.example.user.music_shop;
 
-import com.example.user.music_shop.Models.TypeOfInstrument.BrassInstruments.Saxophone;
+import com.example.user.music_shop.Models.Instruments.TypeOfInstrument.BrassInstruments.Saxophone;
 
 import org.junit.Before;
 import org.junit.Test;

@@ -1,6 +1,6 @@
-package com.example.user.music_shop.Models.TypeOfInstrument.BrassInstruments;
+package com.example.user.music_shop.Models.Instruments.TypeOfInstrument.BrassInstruments;
 
-import com.example.user.music_shop.Models.TypeOfInstrument.BrassInstrument;
+import com.example.user.music_shop.Models.Instruments.TypeOfInstrument.BrassInstrument;
 
 /**
  * Created by user on 03/11/2017.

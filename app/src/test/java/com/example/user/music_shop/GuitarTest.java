@@ -1,6 +1,6 @@
 package com.example.user.music_shop;
 
-import com.example.user.music_shop.Models.TypeOfInstrument.StringInstruments.Guitar;
+import com.example.user.music_shop.Models.Instruments.TypeOfInstrument.StringInstruments.Guitar;
 
 import org.junit.Before;
 import org.junit.Test;

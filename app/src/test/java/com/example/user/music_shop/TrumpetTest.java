@@ -1,6 +1,6 @@
 package com.example.user.music_shop;
 
-import com.example.user.music_shop.Models.TypeOfInstrument.BrassInstruments.Trumpet;
+import com.example.user.music_shop.Models.Instruments.TypeOfInstrument.BrassInstruments.Trumpet;
 
 import org.junit.Before;
 import org.junit.Test;

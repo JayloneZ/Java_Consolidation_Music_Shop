@@ -1,31 +1,22 @@
-package com.example.user.music_shop.Models;
+package com.example.user.music_shop.Models.Instruments;
 
 import com.example.user.music_shop.Behaviors.Playable;
-import com.example.user.music_shop.Behaviors.Sellable;
+import com.example.user.music_shop.Shop;
 
 /**
  * Created by user on 03/11/2017.
  */
 
-public abstract class Instrument implements Playable, Sellable {
-    private String description;
-    private int boughtFor;
-    private int sellingFor;
+public abstract class Instrument extends Shop implements Playable {
     private String material;
     private String colour;
     private String type;
 
     public Instrument(String description, int boughtFor, int sellingFor, String material, String colour, String type) {
-        this.description = description;
-        this.boughtFor = boughtFor;
-        this.sellingFor = sellingFor;
+        super(description, boughtFor, sellingFor);
         this.material = material;
         this.colour = colour;
         this.type = type;
-    }
-
-    public String getDescription() {
-        return this.description;
     }
 
     public String getMaterial() {
@@ -40,7 +31,4 @@ public abstract class Instrument implements Playable, Sellable {
         return this.type;
     }
 
-    public int calculateMarkup() {
-        return this.sellingFor - this.boughtFor;
-    }
 }

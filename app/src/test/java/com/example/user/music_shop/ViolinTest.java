@@ -1,6 +1,6 @@
 package com.example.user.music_shop;
 
-import com.example.user.music_shop.Models.TypeOfInstrument.StringInstruments.Violin;
+import com.example.user.music_shop.Models.Instruments.TypeOfInstrument.StringInstruments.Violin;
 
 import org.junit.Before;
 import org.junit.Test;

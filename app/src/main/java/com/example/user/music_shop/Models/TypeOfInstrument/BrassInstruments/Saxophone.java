@@ -17,7 +17,4 @@ public class Saxophone extends BrassInstrument {
         return "I'm a Saxophone!";
     }
 
-    public int calculateMarkup() {
-        return 0;
-    }
 }

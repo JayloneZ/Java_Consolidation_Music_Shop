@@ -17,7 +17,4 @@ public class Trumpet extends BrassInstrument {
         return "I'm a Trumpet!";
     }
 
-    public int calculateMarkup() {
-        return 0;
-    }
 }

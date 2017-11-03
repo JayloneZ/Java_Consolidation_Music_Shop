@@ -16,4 +16,8 @@ public abstract class BrassInstrument extends Instrument {
 
         this.numOfValves = numOfValves;
     }
+
+    public int getNumOfValves() {
+        return numOfValves;
+    }
 }

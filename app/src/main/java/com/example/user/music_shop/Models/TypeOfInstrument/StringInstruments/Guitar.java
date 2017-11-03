@@ -16,8 +16,4 @@ public class Guitar extends StringInstrument {
     public String play() {
         return "I'm a Guitar!";
     }
-
-    public int calculateMarkup() {
-        return 0;
-    }
 }

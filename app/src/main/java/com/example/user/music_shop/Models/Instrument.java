@@ -16,11 +16,31 @@ public abstract class Instrument implements Playable, Sellable {
     private String type;
 
     public Instrument(String description, int boughtFor, int sellingFor, String material, String colour, String type) {
+        this.description = description;
         this.boughtFor = boughtFor;
         this.sellingFor = sellingFor;
-        this.description = description;
         this.material = material;
         this.colour = colour;
         this.type = type;
+    }
+
+    public String getDescription() {
+        return this.description;
+    }
+
+    public String getMaterial() {
+        return this.material;
+    }
+
+    public String getColour() {
+        return this.colour;
+    }
+
+    public String getType() {
+        return this.type;
+    }
+
+    public int calculateMarkup() {
+        return this.sellingFor - this.boughtFor;
     }
 }

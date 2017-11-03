@@ -8,15 +8,11 @@ import com.example.user.music_shop.Models.TypeOfInstrument.StringInstrument;
 
 public class Violin extends StringInstrument {
 
-    public Violin(int boughtFor, int sellingFor, String material, String colour, int numOfStrings) {
+    public Violin(int boughtFor, int sellingFor, String colour, int numOfStrings) {
         super("Violin", boughtFor, sellingFor, "Wood", colour, numOfStrings);
     }
 
     public String play() {
         return "I'm a Violin!";
-    }
-
-    public int calculateMarkup() {
-        return 0;
     }
 }

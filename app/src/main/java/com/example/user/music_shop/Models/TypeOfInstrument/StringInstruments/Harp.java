@@ -16,7 +16,4 @@ public class Harp extends StringInstrument {
         return "I'm a Harp!";
     }
 
-    public int calculateMarkup() {
-        return 0;
-    }
 }
